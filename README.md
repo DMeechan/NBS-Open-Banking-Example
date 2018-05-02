@@ -62,7 +62,6 @@ Here's the software we'll be installing:
 
 1. Node.js & NPM
 2. IBM Cloud CLI (command-line interface)
-3. a
 
 First, let's check if you already have Node.js and NPM installed:
 
@@ -81,4 +80,27 @@ After that is installed:
 1. Restart Terminal or CMD
 2. Enter `node -v` to see your Node.js version (should be 8.11.1)
 3. Enter `npm -v` to see your NPM version (should be 5.6.0)
+
+Next, let's check if you have the IBM Cloud (Bluemix) CLI installed:
+
+1. Open up Terminal or CMD
+2. Run `bluemix --version`
+
+If you have it installed already, you should get something starting with: `bluemix version 0.6.x...`
+
+Otherwise download the latest version from here:
+
+> [IBM Cloud CLI download](ibm.com)
+
+#### 2. Creating a local Node.js server
+
+#### 3. Talking to the Open Banking API
+
+#### 4. Testing the application
+
+#### 5. Setting up on IBM Cloud
+
+#### 6. Creating a Node.js server on IBM Cloud
+
+#### 7. Publishing and testing your web app
 

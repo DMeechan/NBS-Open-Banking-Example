@@ -1,0 +1,31 @@
+{
+    "name": "nbs-open-banking-example",
+    "version": "1.0.0",
+    "description": "## Overview",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "CLOUD_ENV=localhost nodemon --exec \"node\" --ext js index.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DMeechan/NBS-Open-Banking-Example.git"
+    },
+    "author": "Daniel Meechan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DMeechan/NBS-Open-Banking-Example/issues"
+    },
+    "homepage": "https://github.com/DMeechan/NBS-Open-Banking-Example#readme",
+    "dependencies": {
+        "assert": "^1.4.1",
+        "body-parser": "^1.18.2",
+        "cfenv": "^1.0.4",
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "morgan": "^1.9.0",
+        "nodemon": "1.11.0"
+    }
+}
