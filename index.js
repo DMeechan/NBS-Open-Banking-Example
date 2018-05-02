@@ -1,11 +1,16 @@
+// Import Express.js web server
 const express = require("express");
+// bodyParser middleware parses payload bodies in requests so it is easier to work with
 const bodyParser = require("body-parser");
+const http = require("http");
+
 const setupRoutes = require("./routes");
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 setupRoutes(app);
 
@@ -35,3 +40,7 @@ function getCloudConnection() {
     // set up a new connection using our config details
     // return mysql.createConnection(credentials.uri);
 }
+
+http.createServer(app).listen(port, () => {
+    console.log(`Starting web server on HTTP port ${port}`);
+});
