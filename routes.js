@@ -2,6 +2,8 @@ const express = require("express");
 const request = require("request");
 const path = require("path");
 
+// Base URL for NBS Open Banking API
+// Learn more about the API here: https://ob-api.innovationwide.co.uk/docs/
 const APIURL = "https://ob-api.innovationwide.co.uk/api";
 
 module.exports = app => {
