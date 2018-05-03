@@ -36,6 +36,9 @@ If you already have an account, [sign in here](https://console.bluemix.net/dashb
 
 #### 2. Setting up a development environment on IBM Cloud
 
+1. Go to the [IBM Cloud dashboard](https://console.bluemix.net/dashboard/apps) and click the `Create resource` button
+2. 
+
 #### 3. Setting up a Node.js server on IBM Cloud
 
 #### 4. Talking to the Open Banking API

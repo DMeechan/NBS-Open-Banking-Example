@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "description": "## Overview",
     "main": "index.js",
+    "engines": {
+        "node": ">= 8.9.4",
+        "npm": ">= 5.6.0"
+    },
     "scripts": {
         "start": "ENV=cloud node index.js",
         "dev": "ENV=local nodemon --exec \"node\" --ext js index.js",
