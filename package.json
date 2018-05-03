@@ -1,7 +1,7 @@
 {
     "name": "nbs-open-banking-example",
     "version": "1.0.0",
-    "description": "## Overview",
+    "description": "Nationwide Open Banking API Tutorial",
     "main": "index.js",
     "engines": {
         "node": ">= 8.9.4",
@@ -12,16 +12,6 @@
         "dev": "ENV=local nodemon --exec \"node\" --ext js index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/DMeechan/NBS-Open-Banking-Example.git"
-    },
-    "author": "Daniel Meechan",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/DMeechan/NBS-Open-Banking-Example/issues"
-    },
-    "homepage": "https://github.com/DMeechan/NBS-Open-Banking-Example#readme",
     "dependencies": {
         "assert": "^1.4.1",
         "cfenv": "^1.0.4",
@@ -31,5 +21,18 @@
     "devDependencies": {
         "morgan": "^1.9.0",
         "nodemon": "1.11.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DMeechan/NBS-Open-Banking-Example.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DMeechan/NBS-Open-Banking-Example/issues"
+    },
+    "homepage": "https://github.com/DMeechan/NBS-Open-Banking-Example#readme",
+    "author": {
+        "name": "Daniel Meechan",
+        "email": "daniel.meechan@ibm.com"
+    },
+    "license": "MIT"
 }
