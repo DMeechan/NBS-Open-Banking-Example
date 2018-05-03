@@ -21,7 +21,7 @@ When you've chosen your preferred option, scroll down to the appropriate tutoria
 
 ### Option A: develop locally & push to the cloud
 
-To get started with setting up a local development environment, deploying it locally, and then deploying it on IBM Cloud, please visit [this tutorial].(https://console.bluemix.net/docs/runtimes/nodejs/getting-started.html#getting-started-with-node-js-on-bluemix).
+To get started with setting up a local development environment, deploying it locally, and then deploying it on IBM Cloud, please visit [this tutorial](https://console.bluemix.net/docs/runtimes/nodejs/getting-started.html#getting-started-with-node-js-on-bluemix).
 
 When you've completed that tutorial, it's time to start using the Open Banking API. Please have a look at the `index.js` and (especially) the `routes.js` files above for some examples of this.
 
@@ -38,9 +38,9 @@ Here's what we'll be doing:
 
 Here are some short GIFs showing Option A from start to finish:
 
-<!-- ![Setting up on IBM Cloud](tutorial-videos/1-setting-up-cloud.gif)
+![Setting up on IBM Cloud](tutorial-videos/1-setting-up-cloud.gif)
 ![Deploying your web app](tutorial-videos/2-deploying.gif)
-![Using live edit in the cloud development environment](tutorial-videos/3-live-edit.gif) -->
+![Using live edit in the cloud development environment](tutorial-videos/3-live-edit.gif)
 
 #### 1. Setting up on IBM Cloud
 
@@ -81,7 +81,7 @@ If you already have an account, [sign in here](https://console.bluemix.net/dashb
 3. When it is deployed, go back and refresh the web server page to make sure it's still working
 4. If it's working fine, go back to the Orion Web IDE and change something in the `public/index.html` file
 5. Save the file, go back to the web app, and refresh the page. You should see your change has already updated without refreshing the server.
-6. Now go back to the Orion Web IDE and paste the following code inside the `module.exports` function in `routes.js` (see the *3-live-edit.gif* file for a demonstration of how to do this):
+6. Now go back to the Orion Web IDE and paste the following code on `line 45 of routes.js` (see the *tutorial-videos/3-live-edit.gif* video for a demonstration of this):
 
 ```js
 app.get("/testing", (req, res) => {
