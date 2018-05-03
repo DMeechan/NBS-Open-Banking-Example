@@ -1,7 +1,5 @@
 // Import Express.js web server
 const express = require("express");
-// bodyParser middleware parses payload bodies in requests so it is easier to work with
-const bodyParser = require("body-parser");
 const http = require("http");
 
 const setupRoutes = require("./routes");
@@ -9,10 +7,14 @@ const setupRoutes = require("./routes");
 const app = express();
 const port = process.env.PORT || 3000;
 
+// use middleware which parses incoming requests with JSON payloads
 app.use(express.json());
-app.use(bodyParser.urlencoded({ extended: false }));
 
 setupRoutes(app);
+
+if (process.env.ENV === "cloud") {
+    getCloudConnection();
+}
 
 function getCloudConnection() {
     // We'll pull in the database client library
@@ -23,9 +25,9 @@ function getCloudConnection() {
     const appenv = cfenv.getAppEnv();
     const services = appenv.services;
 
-    // 
+    //
     // BELOW IS AN EXAMPLE ON HOW TO CONNECT TO A MYSQL SERVER ON IBM CLOUD
-    // 
+    //
 
     // This check ensures there is a services for MySQL databases
     // assert(

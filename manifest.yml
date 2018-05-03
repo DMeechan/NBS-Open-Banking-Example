@@ -4,4 +4,4 @@ applications:
   memory:  256M
   command: npm start
   env:
-    CLOUD_ENV: cloud
+    ENV: cloud
