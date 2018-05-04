@@ -8,16 +8,16 @@ The NBS Open Banking API documentation can be found here: [https://ob-api.innova
 
 To get started with the Open Banking API, there are two different routes you can take:
 
-- Option A: run a development environment and web server on your local machine, and then push your changes to a cloud-hosted web server
-- Option B: run a development environment and web server on the cloud so you don't need anything installed on your local machine
+- **Option A**: run a development environment and web server on your local machine, and then push your changes to a cloud-hosted web server
+- **Option B**: run a development environment and web server on the cloud so you don't need anything installed on your local machine
 
-If you're familiar your chosen server-side technology (like Node.js, Java, .NET, etc.), pick Option A because it will be easier and gives you more control. If you're not familiar with Node.js, pick Option B.
+If you're familiar a specific server-side technology (like Node.js, Java, .NET, etc.), pick Option A because it gives you more control.
 
-*Note: If you are unable to install software on your computer (like some Nationwide laptops), go with Option B.*
+If you're unable to install anything on your machine, or would like to use Node.js but are not very familiar with it, pick Option B.
 
 When you've chosen your preferred option, scroll down to the appropriate tutorial and get started.
 
-⚠️ Note: in these tutorials, we'll be using Node.js for our web server and IBM Cloud as our cloud provider. However, feel free to use any other server technologies (like Java or ASP.NET) or other cloud providers (like AWS or Heroku).
+⚠️ Note: in these tutorials, we'll be using Node.js for our web server and IBM Cloud as our cloud provider. However, feel free to use any other server technologies (like Java or .NET) or other cloud providers (like AWS or Heroku).
 
 ## Tutorials
 
