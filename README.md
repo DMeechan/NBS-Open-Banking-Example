@@ -58,7 +58,7 @@ Here's what we'll be doing:
 If you don't already have an IBM Cloud account, [sign up here](https://www.ibm.com/cloud/).
 
 IBMers: use your IBM email
-Nationwide: use your Nationwide email
+Nationwide: use your personal email
 
 If you already have an account, [sign in here](https://console.bluemix.net/dashboard/).
 
