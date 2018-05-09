@@ -1,7 +1,9 @@
 ---
 applications:
-- name:    nbs-open-banking-example
-  memory:  256M
+- name:    OB-Aggregator
+  memory:  1024M
   command: npm start
   env:
     ENV: cloud
+#  services:
+#    - practitioner-production-db
